@@ -15,6 +15,11 @@ body,html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@font-face{
+    font-family: Norse;
+    src: url(fonts/Norse-Bold.otf);
+}
+
 h1{
     font-size: calc(.75rem + 1vw);
     margin:0;
@@ -55,6 +60,7 @@ h1{
 
 .odin{
     font-size: calc(1.5rem + 3vw);
+    font-family: Norse;
     color:white;
 }
 
@@ -115,6 +121,11 @@ img{
     outline: none;
     border: 1px solid blue;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+}
+
+.pwdError{
+    outline: none;
+    border: 1px solid red;
 }
 
 .create{
